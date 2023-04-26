@@ -1,9 +1,9 @@
 class Busca < Formula
   desc "Closest match searcher for MacOS written in Rust"
   homepage "https://github.com/noahbaculi/busca"
-  url "https://github.com/noahbaculi/busca/releases/download/v0.1.1/busca-mac.tar.gz"
-  sha256 "4b383b2f91fbf3c07e7177a74684e9f975925a4e1ba598bd2294c1161edda8a9"
-  version "0.1.1"
+  url "https://github.com/noahbaculi/busca/releases/download/v0.1.2/busca-mac.tar.gz"
+  sha256 "b2ffd7e102cd7f3111e5a9803bb7b27c9073b2e0e624be7c5983ada6204c0fd2"
+  version "0.1.2"
 
   def install
     bin.install "busca"
